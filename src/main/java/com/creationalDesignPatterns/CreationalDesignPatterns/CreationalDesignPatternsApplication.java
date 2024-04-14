@@ -1,5 +1,6 @@
 package com.creationalDesignPatterns.CreationalDesignPatterns;
 
+import com.creationalDesignPatterns.CreationalDesignPatterns.Builder.BuilderPatternDemo;
 import com.creationalDesignPatterns.CreationalDesignPatterns.Factory.FactoryClass;
 //import com.creationalDesignPatterns.CreationalDesignPatterns.Factory.Shape;
 import com.creationalDesignPatterns.CreationalDesignPatterns.Prototype.PrototypePatternDemo;
@@ -13,8 +14,8 @@ public class CreationalDesignPatternsApplication {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 
-		PrototypePatternDemo pp = new PrototypePatternDemo();
-		pp.prototypedemo();
+		BuilderPatternDemo bp = new BuilderPatternDemo();
+		bp.demo();
 
 	}
 
